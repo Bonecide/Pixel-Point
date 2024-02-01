@@ -3,12 +3,12 @@ export const Footer = () => {
     <footer className="relative">
       <img
         src="/images/RightFooterBlind.png"
-        className="absolute right-0 bottom-[100%]"
+        className="absolute right-0 bottom-[100%] z-[-1]"
         alt=""
       />
       <img
         src="/images/LeftFooterBlind.png"
-        className="absolute left-0 bottom-[100%]"
+        className="absolute left-0 bottom-[100%] z-[-1]"
         alt=""
       />
       <div className="footer w-full mt-[176px] border-t border-[#172136]">
